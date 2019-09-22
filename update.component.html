@@ -1,0 +1,3 @@
+<input type="text" name="FirstName" placeholder="Enter First Name" #FirstName="ngModel" [(ngModel)]="model.FirstName">
+<input type="text" name="LastName" placeholder="Enter Last Name" #LastName="ngModel" [(ngModel)]="model.LastName">
+<input type="button" (click)="update(model)" value="Submit">
